@@ -943,6 +943,7 @@ public class ViewMotorcycleRecords extends javax.swing.JPanel {
         title.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
         title.setText("Motorcycle Records");
 
+        recordstable.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         recordstable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null},
@@ -958,33 +959,42 @@ public class ViewMotorcycleRecords extends javax.swing.JPanel {
 
         jPanel2.setLayout(new java.awt.GridLayout(1, 3, 15, 0));
 
+        btnrefresh.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnrefresh.setText("Refresh");
         jPanel2.add(btnrefresh);
 
+        btnedit.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnedit.setText("Edit");
         jPanel2.add(btnedit);
 
+        btndelete.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btndelete.setText("Delete");
         jPanel2.add(btndelete);
 
         jPanel4.setLayout(new java.awt.GridLayout(1, 0, 15, 0));
 
+        btnviewinspectionrecord.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnviewinspectionrecord.setText("View Inspection");
         btnviewinspectionrecord.addActionListener(this::btnviewinspectionrecordActionPerformed);
         jPanel4.add(btnviewinspectionrecord);
 
+        btnviewmaintenancerecord.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnviewmaintenancerecord.setText("View Maintenance");
         btnviewmaintenancerecord.addActionListener(this::btnviewmaintenancerecordActionPerformed);
         jPanel4.add(btnviewmaintenancerecord);
 
+        btnviewdmg.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnviewdmg.setText("View Damage Report");
         btnviewdmg.addActionListener(this::btnviewdmgActionPerformed);
         jPanel4.add(btnviewdmg);
 
+        ID.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         ID.setText("Search ID:");
 
+        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jTextField3.addActionListener(this::jTextField3ActionPerformed);
 
+        btnsearch.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnsearch.setText("Search");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -994,21 +1004,23 @@ public class ViewMotorcycleRecords extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(title)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 808, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(description)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(ID)
-                            .addGap(18, 18, 18)
-                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)
-                            .addComponent(btnsearch))
-                        .addComponent(recordsscrollpane, javax.swing.GroupLayout.PREFERRED_SIZE, 898, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(title)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 808, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 173, Short.MAX_VALUE))
+                    .addComponent(recordsscrollpane, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(description)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(ID)
+                        .addGap(18, 18, 18)
+                        .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnsearch)))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1023,7 +1035,7 @@ public class ViewMotorcycleRecords extends javax.swing.JPanel {
                     .addComponent(btnsearch))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(recordsscrollpane, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 26, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)

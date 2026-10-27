@@ -122,7 +122,6 @@ public class MainDashboard extends javax.swing.JFrame {
         pnlviewrecords = new ViewMotorcycleRecords();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(1200, 750));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -132,7 +131,7 @@ public class MainDashboard extends javax.swing.JFrame {
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("TRIMOTO");
+        jLabel2.setText("TriMoto");
 
         jLabel1.setFont(new java.awt.Font("Arial Narrow", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -168,7 +167,7 @@ public class MainDashboard extends javax.swing.JFrame {
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setText("Trimoto | Online System");
+        jLabel7.setText("Trimoto | Offline system");
 
         javax.swing.GroupLayout pnlsidebarLayout = new javax.swing.GroupLayout(pnlsidebar);
         pnlsidebar.setLayout(pnlsidebarLayout);
@@ -177,26 +176,27 @@ public class MainDashboard extends javax.swing.JFrame {
             .addGroup(pnlsidebarLayout.createSequentialGroup()
                 .addGroup(pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(pnlsidebarLayout.createSequentialGroup()
+                        .addGroup(pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlsidebarLayout.createSequentialGroup()
+                                .addGap(17, 17, 17)
+                                .addGroup(pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel1)
+                                    .addComponent(jLabel2)))
+                            .addGroup(pnlsidebarLayout.createSequentialGroup()
+                                .addContainerGap()
+                                .addComponent(jLabel7)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(pnlsidebarLayout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btndashboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnmanagemotor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btninspect, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnmaintenance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnrentalprocess, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnMotorcyclerecords, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
-                            .addComponent(btnRentalTransac, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(pnlsidebarLayout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addGroup(pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                            .addComponent(btnRentalTransac, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(btnMotorcyclerecords, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
+                            .addComponent(btnrentalprocess, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addContainerGap())
-            .addGroup(pnlsidebarLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel7)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlsidebarLayout.setVerticalGroup(
             pnlsidebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -215,11 +215,11 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(btnmaintenance, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnrentalprocess, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(24, 24, 24)
                 .addComponent(btnMotorcyclerecords, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnRentalTransac, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 260, Short.MAX_VALUE)
                 .addComponent(jLabel7)
                 .addContainerGap())
         );
@@ -241,7 +241,7 @@ public class MainDashboard extends javax.swing.JFrame {
             .addGroup(HeaderLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 203, Short.MAX_VALUE)
                 .addComponent(lbldate, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -255,7 +255,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGap(22, 22, 22))
         );
 
-        getContentPane().add(Header, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, -10, 990, 90));
+        getContentPane().add(Header, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, -10, 1000, 90));
 
         pnlDashboard.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.default.pressedBackground"));
         pnlDashboard.setLayout(new javax.swing.BoxLayout(pnlDashboard, javax.swing.BoxLayout.LINE_AXIS));
@@ -275,31 +275,37 @@ public class MainDashboard extends javax.swing.JFrame {
         quickactions.setBackground(javax.swing.UIManager.getDefaults().getColor("Button.default.pressedBackground"));
         quickactions.setLayout(new java.awt.GridLayout(3, 2, 15, 15));
 
+        ManageMotorcycle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         ManageMotorcycle.setText("<html><div style='width:220px;padding:5px'><b>Manage Motorcycles</b><br><br><span style='color:#667788'>Register and update motorcycle details</span></div></html>");
         ManageMotorcycle.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         ManageMotorcycle.addActionListener(this::ManageMotorcycleActionPerformed);
         quickactions.add(ManageMotorcycle);
 
+        MotorcycleInspection.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         MotorcycleInspection.setText("<html><div style='width:220px;padding:5px'><b>Motorcycle Inspection</b><br><br><span style='color:#667788'>Record condition and damage reports</span></div></html>");
         MotorcycleInspection.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         MotorcycleInspection.addActionListener(this::MotorcycleInspectionActionPerformed);
         quickactions.add(MotorcycleInspection);
 
+        MaintenanceRecording.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         MaintenanceRecording.setText("<html><div style='width:220px;padding:5px'><b>Maintenance Recording</b><br><br><span style='color:#667788'>Record service history and expenses</span></div></html>");
         MaintenanceRecording.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         MaintenanceRecording.addActionListener(this::MaintenanceRecordingActionPerformed);
         quickactions.add(MaintenanceRecording);
 
+        RentalProcessing.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         RentalProcessing.setText("<html><div style='width:220px;padding:5px'><b>Rental Processing</b><br><br><span style='color:#667788'>Create a new rental transaction</span></div></html>");
         RentalProcessing.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         RentalProcessing.addActionListener(this::RentalProcessingActionPerformed);
         quickactions.add(RentalProcessing);
 
+        ViewMotorcycleRecords.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         ViewMotorcycleRecords.setText("<html><div style='width:220px;padding:5px'><b>View Motorcycle Records</b><br><br><span style='color:#667788'>View details, inspections, and maintenance</span></div></html>");
         ViewMotorcycleRecords.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         ViewMotorcycleRecords.addActionListener(this::ViewMotorcycleRecordsActionPerformed);
         quickactions.add(ViewMotorcycleRecords);
 
+        ViewRentalTransactions.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         ViewRentalTransactions.setText("<html><div style='width:220px;padding:5px'><b>View Rental Transactions</b><br><br><span style='color:#667788'>Review recorded rental transactions</span></div></html>");
         ViewRentalTransactions.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         ViewRentalTransactions.addActionListener(this::ViewRentalTransactionsActionPerformed);
@@ -318,7 +324,7 @@ public class MainDashboard extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel10)
-                .addContainerGap(777, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -333,6 +339,7 @@ public class MainDashboard extends javax.swing.JFrame {
 
         pnlTotalcard.setBackground(new java.awt.Color(255, 255, 255));
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(41, 128, 185));
         jLabel6.setText("Total Motorcycles");
 
@@ -349,7 +356,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlTotalcardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lbltotalvalue, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel6))
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(25, Short.MAX_VALUE))
         );
         pnlTotalcardLayout.setVerticalGroup(
             pnlTotalcardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -358,13 +365,14 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(jLabel6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbltotalvalue)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         overview.add(pnlTotalcard);
 
         pnlavailable.setBackground(new java.awt.Color(255, 255, 255));
 
+        lblAvailabletitle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblAvailabletitle.setForeground(new java.awt.Color(39, 174, 96));
         lblAvailabletitle.setText("Available");
 
@@ -381,7 +389,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlavailableLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblAvailabletitle)
                     .addComponent(lbltotalvalue2, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(84, Short.MAX_VALUE))
+                .addContainerGap(82, Short.MAX_VALUE))
         );
         pnlavailableLayout.setVerticalGroup(
             pnlavailableLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -390,7 +398,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(lblAvailabletitle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbltotalvalue2)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         overview.add(pnlavailable);
@@ -401,6 +409,7 @@ public class MainDashboard extends javax.swing.JFrame {
         lbltotalvalue1.setForeground(new java.awt.Color(142, 68, 173));
         lbltotalvalue1.setText("0");
 
+        lblrentedtitle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblrentedtitle.setForeground(new java.awt.Color(142, 68, 173));
         lblrentedtitle.setText("Rented");
 
@@ -413,7 +422,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlrentedLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblrentedtitle)
                     .addComponent(lbltotalvalue1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addContainerGap(97, Short.MAX_VALUE))
         );
         pnlrentedLayout.setVerticalGroup(
             pnlrentedLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -422,13 +431,14 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(lblrentedtitle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbltotalvalue1)
-                .addContainerGap(132, Short.MAX_VALUE))
+                .addContainerGap(127, Short.MAX_VALUE))
         );
 
         overview.add(pnlrented);
 
         pnlformainte.setBackground(new java.awt.Color(255, 255, 255));
 
+        lblformaintenancetitle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblformaintenancetitle.setForeground(new java.awt.Color(214, 123, 38));
         lblformaintenancetitle.setText("Under Maintenance");
 
@@ -445,7 +455,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlformainteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblformaintenancetitle)
                     .addComponent(lbltotalvalue3, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap(10, Short.MAX_VALUE))
         );
         pnlformainteLayout.setVerticalGroup(
             pnlformainteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -461,6 +471,7 @@ public class MainDashboard extends javax.swing.JFrame {
 
         pnlforinspect1.setBackground(new java.awt.Color(255, 255, 255));
 
+        lblformaintenancetitle2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblformaintenancetitle2.setForeground(new java.awt.Color(227, 191, 78));
         lblformaintenancetitle2.setText("For Inspection");
 
@@ -477,7 +488,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlforinspect1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblformaintenancetitle2)
                     .addComponent(lbltotalvalue5, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(49, Short.MAX_VALUE))
         );
         pnlforinspect1Layout.setVerticalGroup(
             pnlforinspect1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -486,13 +497,14 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(lblformaintenancetitle2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbltotalvalue5)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         overview.add(pnlforinspect1);
 
         pnlforinspect.setBackground(new java.awt.Color(255, 255, 255));
 
+        lblformaintenancetitle1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblformaintenancetitle1.setForeground(new java.awt.Color(117, 80, 46));
         lblformaintenancetitle1.setText("Under Repair");
 
@@ -509,7 +521,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnlforinspectLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(lblformaintenancetitle1)
                     .addComponent(lbltotalvalue4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(64, Short.MAX_VALUE))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
         pnlforinspectLayout.setVerticalGroup(
             pnlforinspectLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -518,7 +530,7 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addComponent(lblformaintenancetitle1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(lbltotalvalue4)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addContainerGap(128, Short.MAX_VALUE))
         );
 
         overview.add(pnlforinspect);
@@ -532,9 +544,10 @@ public class MainDashboard extends javax.swing.JFrame {
                 .addGroup(pnloverviewLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
                     .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 321, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(overview, javax.swing.GroupLayout.PREFERRED_SIZE, 917, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(quickactions, javax.swing.GroupLayout.PREFERRED_SIZE, 922, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(quickactions, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(overview, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 978, Short.MAX_VALUE))
+                .addContainerGap())
         );
         pnloverviewLayout.setVerticalGroup(
             pnloverviewLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -562,7 +575,7 @@ public class MainDashboard extends javax.swing.JFrame {
 
         pnlDashboard.add(pnlswitcher);
 
-        getContentPane().add(pnlDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 970, 640));
+        getContentPane().add(pnlDashboard, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 70, 990, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

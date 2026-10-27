@@ -135,61 +135,90 @@ public class RentalProcessing extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(11, 2, 15, 15));
 
+        lblmotor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblmotor.setText("Motorcycle:");
         jPanel1.add(lblmotor);
 
+        motor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         motor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel1.add(motor);
 
+        lblrenter.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblrenter.setText("Renter Name:");
         jPanel1.add(lblrenter);
+
+        txtname.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtname);
 
+        lblage.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblage.setText("Age:");
         jPanel1.add(lblage);
+
+        txtage.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtage);
 
+        lbladdress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lbladdress.setText("Address:");
         jPanel1.add(lbladdress);
 
+        txtaddress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         txtaddress.addActionListener(this::txtaddressActionPerformed);
         jPanel1.add(txtaddress);
 
+        lblnumber.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblnumber.setText("Contact Number:");
         jPanel1.add(lblnumber);
+
+        txtcontnumber.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtcontnumber);
 
+        lblduration.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblduration.setText("Rental Duration (Days):");
         jPanel1.add(lblduration);
+
+        lbldura.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(lbldura);
 
+        driverlicense.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         driverlicense.setText("Driver's License #:");
         jPanel1.add(driverlicense);
+
+        txtdriverslicense.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtdriverslicense);
 
+        lblamount.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblamount.setText("Enter Amount:");
         jPanel1.add(lblamount);
+
+        txtamount.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtamount);
         jPanel1.add(jLabel6);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.GridLayout(1, 0));
 
+        cbpartial.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cbpartial.setText("Partial Payment");
         jPanel3.add(cbpartial);
 
+        cbfull.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cbfull.setText("Full Payment");
         jPanel3.add(cbfull);
 
         jPanel1.add(jPanel3);
 
+        lblexpectedreturn.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblexpectedreturn.setText("Expected Return Date: ");
         jPanel1.add(lblexpectedreturn);
+
+        txtreturn.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtreturn);
 
+        btnclear.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnclear.setText("Clear");
         jPanel1.add(btnclear);
 
+        btnprocessrental.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnprocessrental.setText("Process Rental");
         btnprocessrental.addActionListener(this::btnprocessrentalActionPerformed);
         jPanel1.add(btnprocessrental);
@@ -206,7 +235,7 @@ public class RentalProcessing extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(12, 12, 12)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -218,7 +247,7 @@ public class RentalProcessing extends javax.swing.JPanel {
                 .addComponent(description)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(57, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 

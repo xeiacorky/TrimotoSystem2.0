@@ -47,32 +47,35 @@
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="btndashboard" max="32767" attributes="0"/>
                               <Component id="btnmanagemotor" alignment="0" max="32767" attributes="0"/>
                               <Component id="btninspect" alignment="1" max="32767" attributes="0"/>
                               <Component id="btnmaintenance" alignment="0" max="32767" attributes="0"/>
-                              <Component id="btnrentalprocess" alignment="1" max="32767" attributes="0"/>
-                              <Component id="btnMotorcyclerecords" alignment="1" pref="218" max="32767" attributes="0"/>
                               <Component id="btnRentalTransac" alignment="1" max="32767" attributes="0"/>
+                              <Component id="btnMotorcyclerecords" alignment="0" pref="218" max="32767" attributes="0"/>
+                              <Component id="btnrentalprocess" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -93,11 +96,11 @@
                   <Component id="btnmaintenance" min="-2" pref="35" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="btnrentalprocess" min="-2" pref="35" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
                   <Component id="btnMotorcyclerecords" min="-2" pref="35" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="btnRentalTransac" min="-2" pref="35" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="260" max="32767" attributes="0"/>
                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -116,7 +119,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="TRIMOTO"/>
+            <Property name="text" type="java.lang.String" value="TriMoto"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
@@ -201,7 +204,7 @@
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Trimoto | Online System"/>
+            <Property name="text" type="java.lang.String" value="Trimoto | Offline system"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -231,7 +234,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="220" y="-10" width="990" height="90"/>
+          <AbsoluteConstraints x="220" y="-10" width="1000" height="90"/>
         </Constraint>
       </Constraints>
 
@@ -241,7 +244,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="193" max="32767" attributes="0"/>
+                  <EmptySpace pref="203" max="32767" attributes="0"/>
                   <Component id="lbldate" min="-2" pref="117" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -284,7 +287,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="230" y="70" width="970" height="640"/>
+          <AbsoluteConstraints x="230" y="70" width="990" height="640"/>
         </Constraint>
       </Constraints>
 
@@ -315,15 +318,16 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel5" min="-2" pref="321" max="-2" attributes="0"/>
-                              <Component id="overview" min="-2" pref="917" max="-2" attributes="0"/>
-                              <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
-                              <Component id="quickactions" min="-2" pref="922" max="-2" attributes="0"/>
+                              <Component id="quickactions" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
+                              <Component id="overview" alignment="1" pref="978" max="32767" attributes="0"/>
                           </Group>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -378,6 +382,9 @@
                   <SubComponents>
                     <Component class="javax.swing.JButton" name="ManageMotorcycle">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;Manage Motorcycles&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;Register and update motorcycle details&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -387,6 +394,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="MotorcycleInspection">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;Motorcycle Inspection&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;Record condition and damage reports&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -396,6 +406,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="MaintenanceRecording">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;Maintenance Recording&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;Record service history and expenses&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -405,6 +418,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="RentalProcessing">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;Rental Processing&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;Create a new rental transaction&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -414,6 +430,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="ViewMotorcycleRecords">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;View Motorcycle Records&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;View details, inspections, and maintenance&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -423,6 +442,9 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="ViewRentalTransactions">
                       <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Segoe UI" size="15" style="0"/>
+                        </Property>
                         <Property name="text" type="java.lang.String" value="&lt;html&gt;&lt;div style=&apos;width:220px;padding:5px&apos;&gt;&lt;b&gt;View Rental Transactions&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&apos;color:#667788&apos;&gt;Review recorded rental transactions&lt;/span&gt;&lt;/div&gt;&lt;/html&gt;"/>
                         <Property name="horizontalAlignment" type="int" value="2"/>
                       </Properties>
@@ -448,7 +470,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="777" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -502,7 +524,7 @@
                                       <Component id="lbltotalvalue" min="-2" pref="41" max="-2" attributes="0"/>
                                       <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                                  <EmptySpace pref="25" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -513,7 +535,7 @@
                                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lbltotalvalue" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="133" max="32767" attributes="0"/>
+                                  <EmptySpace pref="128" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -521,6 +543,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel6">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="b9" green="80" red="29" type="rgb"/>
                             </Property>
@@ -556,7 +581,7 @@
                                       <Component id="lblAvailabletitle" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue2" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="84" max="32767" attributes="0"/>
+                                  <EmptySpace pref="82" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -567,7 +592,7 @@
                                   <Component id="lblAvailabletitle" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lbltotalvalue2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="133" max="32767" attributes="0"/>
+                                  <EmptySpace pref="128" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -575,6 +600,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="lblAvailabletitle">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="60" green="ae" red="27" type="rgb"/>
                             </Property>
@@ -610,7 +638,7 @@
                                       <Component id="lblrentedtitle" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue1" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="93" max="32767" attributes="0"/>
+                                  <EmptySpace pref="97" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -621,7 +649,7 @@
                                   <Component id="lblrentedtitle" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lbltotalvalue1" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="132" max="32767" attributes="0"/>
+                                  <EmptySpace pref="127" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -640,6 +668,9 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="lblrentedtitle">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="ad" green="44" red="8e" type="rgb"/>
                             </Property>
@@ -664,7 +695,7 @@
                                       <Component id="lblformaintenancetitle" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue3" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="31" max="32767" attributes="0"/>
+                                  <EmptySpace pref="10" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -683,6 +714,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="lblformaintenancetitle">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="26" green="7b" red="d6" type="rgb"/>
                             </Property>
@@ -718,7 +752,7 @@
                                       <Component id="lblformaintenancetitle2" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue5" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="60" max="32767" attributes="0"/>
+                                  <EmptySpace pref="49" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -729,7 +763,7 @@
                                   <Component id="lblformaintenancetitle2" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lbltotalvalue5" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="133" max="32767" attributes="0"/>
+                                  <EmptySpace pref="128" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -737,6 +771,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="lblformaintenancetitle2">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="4e" green="bf" red="e3" type="rgb"/>
                             </Property>
@@ -772,7 +809,7 @@
                                       <Component id="lblformaintenancetitle1" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue4" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="64" max="32767" attributes="0"/>
+                                  <EmptySpace pref="55" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -783,7 +820,7 @@
                                   <Component id="lblformaintenancetitle1" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="lbltotalvalue4" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="133" max="32767" attributes="0"/>
+                                  <EmptySpace pref="128" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -791,6 +828,9 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="lblformaintenancetitle1">
                           <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Segoe UI" size="15" style="0"/>
+                            </Property>
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="2e" green="50" red="75" type="rgb"/>
                             </Property>

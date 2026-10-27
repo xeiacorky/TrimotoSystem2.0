@@ -146,99 +146,136 @@ public class MotorcycleInspection extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(16, 2, 15, 15));
 
+        lblmotor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblmotor.setText("Motorcycle:");
         jPanel1.add(lblmotor);
 
+        cmbmotorcycle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cmbmotorcycle.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel1.add(cmbmotorcycle);
 
+        lblinspectiondate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblinspectiondate.setText("Inspection Date:");
         jPanel1.add(lblinspectiondate);
+
+        txtinspectdate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtinspectdate);
 
+        lblInspectionphase.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblInspectionphase.setText("Inspection Phase:");
         jPanel1.add(lblInspectionphase);
 
+        cbinspectionphase.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cbinspectionphase.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pre-Rental", "Post-Rental" }));
         jPanel1.add(cbinspectionphase);
 
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel5.setText("Odometer Reading:");
         jPanel1.add(jLabel5);
+
+        jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(jTextField1);
 
+        lblfuel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblfuel.setText("Fuel Level:");
         jPanel1.add(lblfuel);
+
+        txtfuel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(txtfuel);
 
+        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel2.setText("Tire Condition:");
         jPanel1.add(jLabel2);
 
+        jComboBox4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Scratched", "Dented" }));
         jPanel1.add(jComboBox4);
 
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel3.setText("Brake Condition:");
         jPanel1.add(jLabel3);
 
+        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Worn", "Damaged" }));
         jPanel1.add(jComboBox2);
 
+        lblheadlightandsignal.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lblheadlightandsignal.setText("Headlight and Signal Lights:");
         jPanel1.add(lblheadlightandsignal);
 
+        cbheadlight.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cbheadlight.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Functional", "Not Functional" }));
         jPanel1.add(cbheadlight);
 
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel6.setText("Horns");
         jPanel1.add(jLabel6);
 
+        jComboBox6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Functional", "Not Functional" }));
         jPanel1.add(jComboBox6);
 
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel8.setText("Mirrors");
         jPanel1.add(jLabel8);
 
+        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Complete", "Missing", "Damaged" }));
         jPanel1.add(jComboBox5);
 
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel4.setText("Motorcycle Body:");
         jPanel1.add(jLabel4);
 
+        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Needs Repair" }));
         jPanel1.add(jComboBox3);
 
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel1.setText("Engine Condition:");
         jPanel1.add(jLabel1);
 
+        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Normal", "Unusual Noise", "Other Issue" }));
         jPanel1.add(jComboBox1);
 
+        lbloverallcondi.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         lbloverallcondi.setText("Overall Condition:");
         jPanel1.add(lbloverallcondi);
 
+        cbcondition.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         cbcondition.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Minor Damage", "Needs Repair", "Unsafe" }));
         jPanel1.add(cbcondition);
 
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel7.setText("Readiness Status:");
         jPanel1.add(jLabel7);
 
+        jComboBox7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ready", "Not Ready" }));
         jPanel1.add(jComboBox7);
 
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jLabel9.setText("Inspection Notes:");
         jPanel1.add(jLabel9);
+
+        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(jTextField2);
 
         jPanel2.setLayout(new java.awt.GridLayout(1, 0, 15, 0));
 
+        btnclear.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnclear.setText("Clear");
         jPanel2.add(btnclear);
 
+        btncreatedmgreport.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btncreatedmgreport.setText("Create Damage Report");
         btncreatedmgreport.addActionListener(this::btncreatedmgreportActionPerformed);
         jPanel2.add(btncreatedmgreport);
 
         jPanel1.add(jPanel2);
 
+        btnsaveinspect.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnsaveinspect.setText("Save Inspection");
         jPanel1.add(btnsaveinspect);
 
@@ -253,7 +290,7 @@ public class MotorcycleInspection extends javax.swing.JPanel {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(title)
                             .addComponent(description))
-                        .addGap(0, 548, Short.MAX_VALUE))
+                        .addGap(0, 653, Short.MAX_VALUE))
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
