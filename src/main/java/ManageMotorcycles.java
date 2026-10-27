@@ -153,7 +153,6 @@ public class ManageMotorcycles extends javax.swing.JPanel {
         jTextField4 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
-        btnclear = new javax.swing.JButton();
         btnaddmotorcycle = new javax.swing.JButton();
 
         setBackground(javax.swing.UIManager.getDefaults().getColor("Button.default.pressedBackground"));
@@ -167,7 +166,7 @@ public class ManageMotorcycles extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
-        jPanel1.setLayout(new java.awt.GridLayout(13, 2, 15, 15));
+        jPanel1.setLayout(new java.awt.GridLayout(12, 2, 15, 15));
 
         lblMotorID.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
         lblMotorID.setText("Motorcycle ID:");
@@ -252,13 +251,8 @@ public class ManageMotorcycles extends javax.swing.JPanel {
         jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jPanel1.add(jTextField5);
 
-        btnclear.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        btnclear.setText("Clear");
-        jPanel1.add(btnclear);
-
         btnaddmotorcycle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnaddmotorcycle.setText("Add Motorcycle");
-        jPanel1.add(btnaddmotorcycle);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -267,13 +261,16 @@ public class ManageMotorcycles extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 968, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jLabel1)
                     .addComponent(jLabel2))
-                .addContainerGap(791, Short.MAX_VALUE))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addContainerGap(13, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnaddmotorcycle, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(420, 420, 420))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -282,9 +279,11 @@ public class ManageMotorcycles extends javax.swing.JPanel {
                 .addComponent(jLabel1)
                 .addGap(6, 6, 6)
                 .addComponent(jLabel2)
-                .addGap(18, 18, 18)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 494, Short.MAX_VALUE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 470, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnaddmotorcycle, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(24, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -300,7 +299,6 @@ public class ManageMotorcycles extends javax.swing.JPanel {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel brand;
     private javax.swing.JButton btnaddmotorcycle;
-    private javax.swing.JButton btnclear;
     private javax.swing.JComboBox<String> cmbtypes;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

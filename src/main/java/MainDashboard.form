@@ -321,11 +321,16 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel5" min="-2" pref="321" max="-2" attributes="0"/>
-                              <Component id="quickactions" alignment="0" max="32767" attributes="0"/>
                               <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
-                              <Component id="overview" alignment="1" pref="978" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel5" min="-2" pref="321" max="-2" attributes="0"/>
+                                      <Component id="quickactions" alignment="0" min="-2" pref="968" max="-2" attributes="0"/>
+                                      <Component id="overview" alignment="0" min="-2" pref="965" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -524,7 +529,7 @@
                                       <Component id="lbltotalvalue" min="-2" pref="41" max="-2" attributes="0"/>
                                       <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="25" max="32767" attributes="0"/>
+                                  <EmptySpace pref="23" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -581,7 +586,7 @@
                                       <Component id="lblAvailabletitle" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue2" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="82" max="32767" attributes="0"/>
+                                  <EmptySpace pref="80" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -638,7 +643,7 @@
                                       <Component id="lblrentedtitle" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue1" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="97" max="32767" attributes="0"/>
+                                  <EmptySpace pref="95" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -695,7 +700,7 @@
                                       <Component id="lblformaintenancetitle" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue3" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="10" max="32767" attributes="0"/>
+                                  <EmptySpace pref="8" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -752,7 +757,7 @@
                                       <Component id="lblformaintenancetitle2" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue5" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="49" max="32767" attributes="0"/>
+                                  <EmptySpace pref="47" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -809,7 +814,7 @@
                                       <Component id="lblformaintenancetitle1" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Component id="lbltotalvalue4" alignment="0" min="-2" pref="41" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="55" max="32767" attributes="0"/>
+                                  <EmptySpace pref="53" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
