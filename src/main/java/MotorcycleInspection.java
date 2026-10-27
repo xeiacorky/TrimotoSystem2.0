@@ -120,6 +120,7 @@ public class MotorcycleInspection extends javax.swing.JPanel {
         jTextField2 = new javax.swing.JTextField();
         btnsaveinspect = new javax.swing.JButton();
         btncreatedmgreport = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         javax.swing.GroupLayout viewinspectLayout = new javax.swing.GroupLayout(viewinspect.getContentPane());
         viewinspect.getContentPane().setLayout(viewinspectLayout);
@@ -144,128 +145,128 @@ public class MotorcycleInspection extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(15, 2, 15, 15));
 
-        lblmotor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblmotor.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmotor.setText("Motorcycle:");
         jPanel1.add(lblmotor);
 
-        cmbmotorcycle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cmbmotorcycle.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cmbmotorcycle.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel1.add(cmbmotorcycle);
 
-        lblinspectiondate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblinspectiondate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblinspectiondate.setText("Inspection Date:");
         jPanel1.add(lblinspectiondate);
 
-        txtinspectdate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtinspectdate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtinspectdate);
 
-        lblInspectionphase.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblInspectionphase.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblInspectionphase.setText("Inspection Phase:");
         jPanel1.add(lblInspectionphase);
 
-        cbinspectionphase.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cbinspectionphase.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cbinspectionphase.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pre-Rental", "Post-Rental" }));
         jPanel1.add(cbinspectionphase);
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel5.setText("Odometer Reading:");
         jPanel1.add(jLabel5);
 
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField1);
 
-        lblfuel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblfuel.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblfuel.setText("Fuel Level:");
         jPanel1.add(lblfuel);
 
-        txtfuel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtfuel.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtfuel);
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel2.setText("Tire Condition:");
         jPanel1.add(jLabel2);
 
-        jComboBox4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Scratched", "Dented" }));
         jPanel1.add(jComboBox4);
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel3.setText("Brake Condition:");
         jPanel1.add(jLabel3);
 
-        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Worn", "Damaged" }));
         jPanel1.add(jComboBox2);
 
-        lblheadlightandsignal.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblheadlightandsignal.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblheadlightandsignal.setText("Headlight and Signal Lights:");
         jPanel1.add(lblheadlightandsignal);
 
-        cbheadlight.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cbheadlight.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cbheadlight.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Functional", "Not Functional" }));
         jPanel1.add(cbheadlight);
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel6.setText("Horns");
         jPanel1.add(jLabel6);
 
-        jComboBox6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Functional", "Not Functional" }));
         jPanel1.add(jComboBox6);
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel8.setText("Mirrors");
         jPanel1.add(jLabel8);
 
-        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Complete", "Missing", "Damaged" }));
         jPanel1.add(jComboBox5);
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel4.setText("Motorcycle Body:");
         jPanel1.add(jLabel4);
 
-        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox3.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Needs Repair" }));
         jPanel1.add(jComboBox3);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel1.setText("Engine Condition:");
         jPanel1.add(jLabel1);
 
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Normal", "Unusual Noise", "Other Issue" }));
         jPanel1.add(jComboBox1);
 
-        lbloverallcondi.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lbloverallcondi.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lbloverallcondi.setText("Overall Condition:");
         jPanel1.add(lbloverallcondi);
 
-        cbcondition.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cbcondition.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cbcondition.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Good", "Minor Damage", "Needs Repair", "Unsafe" }));
         jPanel1.add(cbcondition);
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel7.setText("Readiness Status:");
         jPanel1.add(jLabel7);
 
-        jComboBox7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox7.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ready", "Not Ready" }));
         jPanel1.add(jComboBox7);
 
-        jLabel9.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel9.setText("Inspection Notes:");
         jPanel1.add(jLabel9);
 
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField2);
 
-        btnsaveinspect.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnsaveinspect.setText("Save Inspection");
 
-        btncreatedmgreport.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btncreatedmgreport.setText("Create Damage Report");
         btncreatedmgreport.addActionListener(this::btncreatedmgreportActionPerformed);
+
+        jButton1.setText("Clear");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -274,19 +275,19 @@ public class MotorcycleInspection extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 888, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(description)
-                            .addComponent(title))
+                            .addComponent(title)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton1)
+                                .addGap(221, 221, 221)
+                                .addComponent(btncreatedmgreport)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnsaveinspect)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(362, Short.MAX_VALUE)
-                .addComponent(btncreatedmgreport)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btnsaveinspect, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(345, 345, 345))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -294,13 +295,14 @@ public class MotorcycleInspection extends javax.swing.JPanel {
                 .addComponent(title)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(description)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 558, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnsaveinspect, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btncreatedmgreport, javax.swing.GroupLayout.PREFERRED_SIZE, 21, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18))
+                    .addComponent(btnsaveinspect, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btncreatedmgreport, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton1))
+                .addGap(15, 15, 15))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -321,6 +323,7 @@ public class MotorcycleInspection extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> cbinspectionphase;
     private javax.swing.JComboBox<String> cmbmotorcycle;
     private javax.swing.JLabel description;
+    private javax.swing.JButton jButton1;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;

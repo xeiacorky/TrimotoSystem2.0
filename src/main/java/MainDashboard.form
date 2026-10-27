@@ -859,45 +859,10 @@
                 </Container>
               </SubComponents>
             </Container>
-            <Component class="MotorcycleInspection" name="pnlInspection">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="inspection"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="MaintenanceRecording" name="pnlmaintenance">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="maintenance"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="RentalProcessing" name="pnlprocessing">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="processing"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="ViewRentalTransaction" name="pnlrentaltransaction">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="transactions"/>
-                </Constraint>
-              </Constraints>
-            </Component>
             <Component class="ManageMotorcycles" name="pnlmanage">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
                   <CardConstraints cardName="manage"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="ViewMotorcycleRecords" name="pnlviewrecords">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignCardLayout" value="org.netbeans.modules.form.compat2.layouts.DesignCardLayout$CardConstraintsDescription">
-                  <CardConstraints cardName="records"/>
                 </Constraint>
               </Constraints>
             </Component>

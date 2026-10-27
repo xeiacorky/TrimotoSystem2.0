@@ -67,6 +67,7 @@ public class MaintenanceRecording extends javax.swing.JPanel {
         jLabel15 = new javax.swing.JLabel();
         jTextField13 = new javax.swing.JTextField();
         btnsavemaintenance = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(900, 550));
 
@@ -79,97 +80,99 @@ public class MaintenanceRecording extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(12, 2, 15, 15));
 
-        lblmotor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblmotor.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmotor.setText("Motorcycle:");
         jPanel1.add(lblmotor);
 
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel1.add(jComboBox1);
 
-        lblmaintenancedate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblmaintenancedate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmaintenancedate.setText("Maintenance Date:");
         jPanel1.add(lblmaintenancedate);
 
-        txtmaintedate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtmaintedate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtmaintedate);
 
-        lblmaintenancetype.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblmaintenancetype.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmaintenancetype.setText("Maintenance Type:");
         jPanel1.add(lblmaintenancetype);
 
-        jComboBox4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Preventive", "Corrective" }));
         jPanel1.add(jComboBox4);
 
-        jLabel12.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel12.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel12.setText("Service Category");
         jPanel1.add(jLabel12);
 
-        jTextField12.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField12.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField12);
 
-        jLabel16.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel16.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel16.setText("Work Performed:");
         jPanel1.add(jLabel16);
 
-        jTextField19.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField19.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField19);
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel7.setText("Parts Replaced:");
         jPanel1.add(jLabel7);
 
-        jTextField9.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField9.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField9);
 
-        jLabel17.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel17.setText("Odometer Reading(km):");
         jPanel1.add(jLabel17);
 
-        jTextField11.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField11.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField11);
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel2.setText("Maintenance Cost:");
         jPanel1.add(jLabel2);
 
-        jTextField15.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField15.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField15);
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel3.setText("Next Service Mileage:");
         jPanel1.add(jLabel3);
 
-        jTextField6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField6);
 
-        jLabel13.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel13.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel13.setText("Maintenance Status:");
         jPanel1.add(jLabel13);
 
-        jComboBox2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pending", "In Progress", "Completed" }));
         jPanel1.add(jComboBox2);
 
-        jLabel21.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel21.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel21.setText("Motorcycle Availability:");
         jPanel1.add(jLabel21);
 
-        jComboBox3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox3.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Available", "Under Maintenance" }));
         jPanel1.add(jComboBox3);
 
-        jLabel15.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel15.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel15.setText("Remarks");
         jPanel1.add(jLabel15);
 
-        jTextField13.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField13.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField13);
 
-        btnsavemaintenance.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnsavemaintenance.setText("Save Maintenance Record");
         btnsavemaintenance.addActionListener(this::btnsavemaintenanceActionPerformed);
+
+        jButton2.setText("Clear");
+        jButton2.addActionListener(this::jButton2ActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -181,14 +184,14 @@ public class MaintenanceRecording extends javax.swing.JPanel {
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 882, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton2)
+                                .addGap(289, 289, 289)
+                                .addComponent(btnsavemaintenance))
                             .addComponent(title)
                             .addComponent(description))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnsavemaintenance)
-                .addGap(335, 335, 335))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -199,9 +202,11 @@ public class MaintenanceRecording extends javax.swing.JPanel {
                 .addComponent(description)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 451, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
-                .addComponent(btnsavemaintenance, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnsavemaintenance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(96, 96, 96))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -254,10 +259,15 @@ public class MaintenanceRecording extends javax.swing.JPanel {
 
     }//GEN-LAST:event_btnsavemaintenanceActionPerformed
 
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnsavemaintenance;
     private javax.swing.JLabel description;
+    private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;

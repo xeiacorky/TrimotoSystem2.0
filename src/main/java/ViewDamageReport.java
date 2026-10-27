@@ -100,6 +100,7 @@ private void setupEvents() {
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         btndamagereport = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         title1.setFont(new java.awt.Font("SansSerif", 1, 20)); // NOI18N
         title1.setText("Damage Report");
@@ -208,77 +209,78 @@ private void setupEvents() {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(9, 2, 15, 15));
 
-        jLabel10.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel10.setText("Motorcycle:");
         jPanel1.add(jLabel10);
 
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jComboBox1.addActionListener(this::jComboBox1ActionPerformed);
         jPanel1.add(jComboBox1);
 
-        jLabel18.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel18.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel18.setText("Damage Location: ");
         jPanel1.add(jLabel18);
 
-        jTextField7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField7.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField7);
 
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel8.setText("Damage Type:");
         jPanel1.add(jLabel8);
 
-        jComboBox5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Scratch", "Dent", "Crack", "Broken Part" }));
         jPanel1.add(jComboBox5);
 
-        jLabel20.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel20.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel20.setText("Damage Description:");
         jPanel1.add(jLabel20);
 
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField5);
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel6.setText("Date Reported:");
         jPanel1.add(jLabel6);
 
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField4);
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel5.setText("Action Required:");
         jPanel1.add(jLabel5);
 
-        jComboBox6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Repair", "Monitor", "No Action" }));
         jPanel1.add(jComboBox6);
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel4.setText("Damage Status:");
         jPanel1.add(jLabel4);
 
-        jComboBox7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox7.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pending", "Under Repair", "Resolved" }));
         jPanel1.add(jComboBox7);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel1.setText("Additional Notes:");
         jPanel1.add(jLabel1);
 
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField2);
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel2.setText("Estimated Repair Cost:");
         jPanel1.add(jLabel2);
 
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField1);
 
-        btndamagereport.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btndamagereport.setText("Save Damage Report");
         btndamagereport.addActionListener(this::btndamagereportActionPerformed);
+
+        jButton2.setText("Clear");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -293,12 +295,12 @@ private void setupEvents() {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 6, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 965, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(16, 16, 16))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(btndamagereport, javax.swing.GroupLayout.PREFERRED_SIZE, 211, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(388, 388, 388))))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton2)
+                                .addGap(336, 336, 336)
+                                .addComponent(btndamagereport))
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 965, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(16, 16, 16))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -308,8 +310,10 @@ private void setupEvents() {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btndamagereport)
-                .addContainerGap(100, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btndamagereport)
+                    .addComponent(jButton2))
+                .addContainerGap(105, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -330,6 +334,7 @@ private void setupEvents() {
     private javax.swing.JButton btnclear1;
     private javax.swing.JButton btndamagereport;
     private javax.swing.JButton btnsavemaintenance1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox5;

@@ -123,6 +123,7 @@ public class RentalProcessing extends javax.swing.JPanel {
         cbfull = new javax.swing.JCheckBox();
         btnprocessrental = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
 
         setPreferredSize(new java.awt.Dimension(900, 550));
 
@@ -135,92 +136,94 @@ public class RentalProcessing extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(10, 2, 15, 15));
 
-        lblmotor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblmotor.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmotor.setText("Motorcycle:");
         jPanel1.add(lblmotor);
 
-        motor.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        motor.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         motor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
         jPanel1.add(motor);
 
-        lblrenter.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblrenter.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblrenter.setText("Renter Name:");
         jPanel1.add(lblrenter);
 
-        txtname.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtname.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtname);
 
-        lblage.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblage.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblage.setText("Age:");
         jPanel1.add(lblage);
 
-        txtage.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtage.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtage);
 
-        lbladdress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lbladdress.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lbladdress.setText("Address:");
         jPanel1.add(lbladdress);
 
-        txtaddress.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtaddress.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         txtaddress.addActionListener(this::txtaddressActionPerformed);
         jPanel1.add(txtaddress);
 
-        lblnumber.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblnumber.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblnumber.setText("Contact Number:");
         jPanel1.add(lblnumber);
 
-        txtcontnumber.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtcontnumber.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtcontnumber);
 
-        lblduration.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblduration.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblduration.setText("Rental Duration (Days):");
         jPanel1.add(lblduration);
 
-        lbldura.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lbldura.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(lbldura);
 
-        driverlicense.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        driverlicense.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         driverlicense.setText("Driver's License #:");
         jPanel1.add(driverlicense);
 
-        txtdriverslicense.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtdriverslicense.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtdriverslicense);
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jLabel1.setText("Payment Type:");
         jPanel1.add(jLabel1);
 
-        jComboBox1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jComboBox1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cash", "Bank Transfer", "Card", "E-Wallet" }));
         jPanel1.add(jComboBox1);
 
-        lblamount.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        lblamount.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblamount.setText("Enter Amount:");
         jPanel1.add(lblamount);
 
-        txtamount.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtamount.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtamount);
+
+        jLabel6.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jLabel6);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new java.awt.GridLayout(1, 0));
 
-        cbpartial.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cbpartial.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cbpartial.setText("Partial Payment");
         jPanel3.add(cbpartial);
 
-        cbfull.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cbfull.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cbfull.setText("Full Payment");
         jPanel3.add(cbfull);
 
         jPanel1.add(jPanel3);
 
-        btnprocessrental.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnprocessrental.setText("Process Rental");
         btnprocessrental.addActionListener(this::btnprocessrentalActionPerformed);
 
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         jButton1.setText("Calculate Cost");
+
+        jButton2.setText("Clear");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -229,19 +232,19 @@ public class RentalProcessing extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 888, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(description)
-                            .addComponent(title))
+                            .addComponent(title)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton2)
+                                .addGap(227, 227, 227)
+                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(12, 12, 12)
+                                .addComponent(btnprocessrental, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(302, Short.MAX_VALUE)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btnprocessrental, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(290, 290, 290))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -253,12 +256,11 @@ public class RentalProcessing extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnprocessrental)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGap(1, 1, 1)))
-                .addContainerGap(24, Short.MAX_VALUE))
+                    .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jButton2))
+                .addContainerGap(56, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -276,6 +278,7 @@ public class RentalProcessing extends javax.swing.JPanel {
     private javax.swing.JLabel description;
     private javax.swing.JLabel driverlicense;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel6;

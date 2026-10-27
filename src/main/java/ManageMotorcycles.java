@@ -154,6 +154,7 @@ public class ManageMotorcycles extends javax.swing.JPanel {
         jLabel7 = new javax.swing.JLabel();
         jTextField5 = new javax.swing.JTextField();
         btnaddmotorcycle = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
 
         setBackground(javax.swing.UIManager.getDefaults().getColor("Button.default.pressedBackground"));
         setPreferredSize(new java.awt.Dimension(970, 551));
@@ -168,91 +169,92 @@ public class ManageMotorcycles extends javax.swing.JPanel {
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(15, 15, 15, 15));
         jPanel1.setLayout(new java.awt.GridLayout(12, 2, 15, 15));
 
-        lblMotorID.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        lblMotorID.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblMotorID.setText("Motorcycle ID:");
         jPanel1.add(lblMotorID);
 
-        txtmotorid.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtmotorid.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         txtmotorid.addActionListener(this::txtmotoridActionPerformed);
         jPanel1.add(txtmotorid);
 
-        brand.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        brand.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         brand.setText("Brand:");
         jPanel1.add(brand);
 
-        txtbrand.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtbrand.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtbrand);
 
-        model.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        model.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         model.setText("Model:");
         jPanel1.add(model);
 
-        txtmodel.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtmodel.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtmodel);
 
-        lblyear.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        lblyear.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblyear.setText("Year:");
         jPanel1.add(lblyear);
 
-        txtyear.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtyear.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtyear);
 
-        lblmileage.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        lblmileage.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmileage.setText("Mileage (km):");
         jPanel1.add(lblmileage);
 
-        txtmileage.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtmileage.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtmileage);
 
-        lbldailyrentalrate.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        lbldailyrentalrate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lbldailyrentalrate.setText("Daily Rental Rate:");
         jPanel1.add(lbldailyrentalrate);
 
-        txtdailyrentalrate.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        txtdailyrentalrate.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(txtdailyrentalrate);
 
-        lblmotortype.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
+        lblmotortype.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         lblmotortype.setText("Motorcycle Type");
         jPanel1.add(lblmotortype);
 
-        cmbtypes.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        cmbtypes.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         cmbtypes.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Scooter", "Standard Bike", "Sports Bike", "Adventure Bike", "Electric Bike", " " }));
         cmbtypes.addActionListener(this::cmbtypesActionPerformed);
         jPanel1.add(cmbtypes);
 
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel3.setText("Transmission Type:");
         jPanel1.add(jLabel3);
 
-        jTextField1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField1);
 
-        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jPanel1.add(jLabel4);
 
-        jTextField2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField2.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField2);
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jPanel1.add(jLabel5);
 
-        jTextField3.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField3.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField3);
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jPanel1.add(jLabel6);
 
-        jTextField4.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField4.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField4);
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jPanel1.add(jLabel7);
 
-        jTextField5.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
+        jTextField5.setFont(new java.awt.Font("SansSerif", 0, 13)); // NOI18N
         jPanel1.add(jTextField5);
 
-        btnaddmotorcycle.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         btnaddmotorcycle.setText("Add Motorcycle");
+
+        jButton1.setText("Clear");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
@@ -261,16 +263,17 @@ public class ManageMotorcycles extends javax.swing.JPanel {
             .addGroup(layout.createSequentialGroup()
                 .addGap(6, 6, 6)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(6, 6, 6)
-                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 968, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
-                .addContainerGap(13, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnaddmotorcycle, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(421, 421, 421))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jButton1)
+                                .addGap(345, 345, 345)
+                                .addComponent(btnaddmotorcycle, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 968, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -282,8 +285,10 @@ public class ManageMotorcycles extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnaddmotorcycle)
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnaddmotorcycle)
+                    .addComponent(jButton1))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -300,6 +305,7 @@ public class ManageMotorcycles extends javax.swing.JPanel {
     private javax.swing.JLabel brand;
     private javax.swing.JButton btnaddmotorcycle;
     private javax.swing.JComboBox<String> cmbtypes;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

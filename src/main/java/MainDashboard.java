@@ -114,12 +114,7 @@ public class MainDashboard extends javax.swing.JFrame {
         pnlforinspect = new javax.swing.JPanel();
         lblformaintenancetitle1 = new javax.swing.JLabel();
         lbltotalvalue4 = new javax.swing.JLabel();
-        pnlInspection = new MotorcycleInspection();
-        pnlmaintenance = new MaintenanceRecording();
-        pnlprocessing = new RentalProcessing();
-        pnlrentaltransaction = new ViewRentalTransaction();
         pnlmanage = new ManageMotorcycles();
-        pnlviewrecords = new ViewMotorcycleRecords();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -569,12 +564,7 @@ public class MainDashboard extends javax.swing.JFrame {
         );
 
         pnlswitcher.add(pnloverview, "dashboard");
-        pnlswitcher.add(pnlInspection, "inspection");
-        pnlswitcher.add(pnlmaintenance, "maintenance");
-        pnlswitcher.add(pnlprocessing, "processing");
-        pnlswitcher.add(pnlrentaltransaction, "transactions");
         pnlswitcher.add(pnlmanage, "manage");
-        pnlswitcher.add(pnlviewrecords, "records");
 
         pnlDashboard.add(pnlswitcher);
 
@@ -700,21 +690,16 @@ public class MainDashboard extends javax.swing.JFrame {
     private javax.swing.JLabel lbltotalvalue5;
     private javax.swing.JPanel overview;
     private javax.swing.JPanel pnlDashboard;
-    private MotorcycleInspection pnlInspection;
     private javax.swing.JPanel pnlTotalcard;
     private javax.swing.JPanel pnlavailable;
     private javax.swing.JPanel pnlforinspect;
     private javax.swing.JPanel pnlforinspect1;
     private javax.swing.JPanel pnlformainte;
-    private MaintenanceRecording pnlmaintenance;
     private ManageMotorcycles pnlmanage;
     private javax.swing.JPanel pnloverview;
-    private RentalProcessing pnlprocessing;
-    private ViewRentalTransaction pnlrentaltransaction;
     private javax.swing.JPanel pnlrented;
     private javax.swing.JPanel pnlsidebar;
     private javax.swing.JPanel pnlswitcher;
-    private ViewMotorcycleRecords pnlviewrecords;
     private javax.swing.JPanel quickactions;
     // End of variables declaration//GEN-END:variables
 }
